@@ -137,7 +137,7 @@ public class Principal {
     public void autoresRegistrados() {
         List<Libro> libros = repositorio.findAll();
         if (libros.isEmpty()) {
-            System.out.println("\nNo hay libros registrados, por lo tanto no hay autores.");
+            System.out.println("\nNo hay libros registrados.");
         } else {
             System.out.println("\n********** AUTORES REGISTRADOS **********\n");
 
